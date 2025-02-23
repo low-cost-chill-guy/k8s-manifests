@@ -17,6 +17,6 @@ spec:
         - name: ecr-registry-secret
       containers:
         - name: test
-          image: 277707137172.dkr.ecr.us-west-1.amazonaws.com/dr/chillguydr:78
+          image: 277707137172.dkr.ecr.us-west-1.amazonaws.com/dr/chillguydr:81
           ports:
             - containerPort: 8080
