@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: test
-  namespace: default
+  namespace: test-cd
 spec:
   replicas: 1
   selector:
@@ -17,6 +17,6 @@ spec:
         - name: ecr-registry-secret
       containers:
         - name: test
-          image: 277707137172.dkr.ecr.us-west-1.amazonaws.com/dr/chillguydr:16
+          image: 277707137172.dkr.ecr.ap-northeast-2.amazonaws.com/chillguy/wastest:57
           ports:
             - containerPort: 8080
