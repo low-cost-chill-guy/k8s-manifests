@@ -4,7 +4,7 @@ metadata:
   name: test
   namespace: test-cd
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: test
