@@ -1,3 +1,3 @@
-![image](https://github.com/user-attachments/assets/b19eac55-cdd8-40cc-8901-8ae35d2c96a7)
+![argo](https://github.com/user-attachments/assets/051fb716-388d-40ff-87c2-78f6553fb0e6)
 
 argo k8s repo read me ipnida
